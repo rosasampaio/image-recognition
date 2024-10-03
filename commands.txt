@@ -1,0 +1,46 @@
+python3 -m venv .venv
+source ./.venv/bin/activate 
+ python3 -m pip install -r  ./requirements.txt 
+
+ '''
+ https://openimageio.readthedocs.io/en/latest/imageoutput.html
+https://github.com/AcademySoftwareFoundation/OpenImageIO/tree/main 
+https://github.com/AcademySoftwareFoundation/OpenImageIO
+
+libjpeg
+libtiff
+libpng
+Imath
+OpenEXR
+'''
+
+---
+https://datacarpentry.org/image-processing/02-image-basics.html
+
+
+conda create --name image-env 
+conda create -n image-env imagio>=2.16.0
+conda activate image-env 
+
+conda remove --name myenv --all
+
+conda env create --file environment.yml
+conda activate image-recognition
+
+
+
+sudo apt-get install --reinstall libxcb-xinerama0
+**
+this error using Pillow v8.1.2 installed from conda.
+I fixed it by replacing the conda version with a pip version:
+
+conda remove Pillow
+pip install Pillow
+
+-
+/etc/gdm3/custom.conf
+# Set this value to disable Wayland
+WaylandEnable=false
+
+# Restart gdm3
+sudo systemctl restart gdm3

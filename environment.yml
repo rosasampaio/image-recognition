@@ -1,0 +1,12 @@
+name: image-recognition
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - imageio
+  - imageio[ffmpeg]
+  - numpy
+  - imageio[pyav]
+  - conda-forge::pillow
+  - conda-forge::libxcb

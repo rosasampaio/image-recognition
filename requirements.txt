@@ -1,0 +1,7 @@
+pylibjpeg-libjpeg
+numpy
+pylibtiff
+libpng-bins
+Imath
+# OpenEXR
+openpiv
