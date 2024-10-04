@@ -27,6 +27,8 @@ conda remove --name myenv --all
 conda env create --file environment.yml
 conda activate image-recognition
 
+conda env update --file environment.yml 
+conda install conda-forge::pynput
 
 
 sudo apt-get install --reinstall libxcb-xinerama0
@@ -44,3 +46,6 @@ WaylandEnable=false
 
 # Restart gdm3
 sudo systemctl restart gdm3
+
+RUN
+python3 ./src/img_from_pillow.py  

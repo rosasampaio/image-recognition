@@ -1,0 +1,11 @@
+So, you want to extract an element from an image representation in Python. 
+This is a classic computer vision task!
+
+How to crop an image based on its coordinates in Python Opencv
+
+
+(x, y, w, h), where:
+* x is the x-coordinate of the top-left corner of the ROI 
+* y is the y-coordinate of the top-left corner of the ROI 
+* w is the width of the ROI 
+* h is the height of the ROI

@@ -1,5 +1,7 @@
 from PIL import ImageGrab
 from PIL import features
+import pyautogui as pyauto
+
 
 print(features.check_feature(feature="xcb"))
 print(features.get_supported_features())
@@ -21,3 +23,7 @@ screenshot.save("commands.png")
 
 # Close the screenshot
 screenshot.close()
+
+
+x, y = pyauto.position()
+print(x, y)

@@ -8,5 +8,12 @@ dependencies:
   - imageio[ffmpeg]
   - numpy
   - imageio[pyav]
+  - requests
+  - beautifulsoup4
   - conda-forge::pillow
   - conda-forge::libxcb
+  - conda-forge::pyautogui
+  - conda-forge::pynput
+  - conda-forge::opencv
+  - conda-forge::requests
+  - conda-forge::seleniumy

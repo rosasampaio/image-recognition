@@ -1,5 +1,6 @@
 import imageio.v3 as iio
 
+# Do you like to start the record?
 def simple_write():
     im = iio.imread('imageio:astronaut.png')
     im.shape  # im is a numpy array
